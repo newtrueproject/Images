@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="КАТЮ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Описание последовательности сообщений согласно протоколу передачи файлов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Описание последовательности сообщений согласно протоколу передачи файлов</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Итак, пусть пользователю компьютера необходимо передать файл на ftp-сервер. При решении этой задачи взаимодействуют между собой протоколы DNS, IP, ARP и Ethernet и кадры с пакетами претерпевают некоторые изменения. Для передачи файла программные модули должны иметь следующую информацию: IP-адрес и МАС-адрес ftp-сервера.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Общий вид того что происходит выглядит следующим образом. Исходя из данных, составляется UDP-пакет. UDP пакет инкапсулируется в IP-пакет. Заголовок IP-пакета содержит IP-адрес ftp-сервера. Для передачи этого IP- пакета необходимо его упаковать в кадр Ethernet, указав в заголовке МАС-адрес получателя или ближайшего маршрутизатора. IP-адреса получателя и отправителя в полях заголовка IP-пакета не изменяются. Зато в заголовке каждого нового кадра, который переносит пакет от одного маршрутизатора к другому, МАС-адреса отправителя и получателя изменяются на каждом отрезке пути.</text></para>
+  </body>
+</topic>

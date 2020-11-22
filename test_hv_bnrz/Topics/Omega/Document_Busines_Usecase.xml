@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="КАТЮ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Бизнес-сущности документов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Бизнес-сущности документов</text></para>
+    </header>
+    <para styleclass="Image Caption"><image src="book_model_1.png" scale="75.00%" width="586" height="278" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 1.1 - Структура Книги сдачи медиа-документов</text></para>
+  </body>
+</topic>

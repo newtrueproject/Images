@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="432495776242667" build="SPEC" modified="2018-05-29T14:46:59.364Z" icon="0" href="Specific_Form">
+    <caption translate="true">Форма спецификации</caption>
+  </topicref>
+  <topicref type="topic" id="432024070563754" modified="2018-04-12T11:11:14.572Z" icon="0" href="31">
+    <caption translate="true">____31____</caption>
+  </topicref>
+  <topicref type="topic" id="432032797922954" build="31" modified="2018-04-16T13:05:10.780Z" icon="0" href="Program_Purpose">
+    <caption translate="true">Назначение программы</caption>
+  </topicref>
+  <topicref type="topic" id="432153920197515" build="31" modified="2018-04-25T13:01:34.031Z" icon="0" href="Using_Conditions">
+    <caption translate="true">Условия применения</caption>
+    <topicref type="topic" id="432155900184617" build="ALL" modified="2018-04-25T12:49:42.814Z" icon="0" href="Devices_List">
+      <caption translate="true">Минимальный состав аппаратно-технических средств</caption>
+    </topicref>
+    <topicref type="topic" id="43216692544134" build="ALL" modified="2018-04-25T12:51:43.657Z" icon="0" href="Program_List">
+      <caption translate="true">Минимальный состав программных средств</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="432157397098452" build="31" modified="2018-04-25T13:01:30.394Z" icon="0" href="Task_Description">
+    <caption translate="true">Описание задачи</caption>
+    <topicref type="topic" id="431893737229" build="ALL" modified="2018-04-25T12:54:27.000Z" icon="0" href="Tasks_Identify">
+      <caption translate="true">Определение задачи</caption>
+    </topicref>
+    <topicref type="topic" id="432153797645111" build="ALL" modified="2018-04-25T12:55:57.448Z" icon="0" href="Methods_Of_Decision">
+      <caption translate="true">Методы решения задачи</caption>
+    </topicref>
+    <topicref type="topic" id="432153386025123" build="ALL" modified="2018-04-25T13:02:42.284Z" icon="0" href="Value_Of_Results">
+      <caption translate="true">Оценка результатов тестирования</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="432023743621279" build="31" modified="2018-05-23T18:34:35.169Z" icon="0" href="Program_User_Interface">
+    <caption translate="true">Пользовательский интерфейс программы</caption>
+    <topicref type="topic" id="432156008049798" build="31" modified="2018-04-28T14:51:49.886Z" icon="0" href="Main_Windows_Description">
+      <caption translate="true">Описание главного окна программы</caption>
+    </topicref>
+    <topicref type="topic" id="432024257736670" build="31" modified="2018-07-03T13:48:17.303Z" icon="0" href="Common_Tab">
+      <caption translate="true">Вкладка «ФОС»</caption>
+    </topicref>
+    <topicref type="topic" id="43202825976109" build="31" modified="2018-07-03T13:51:42.331Z" icon="0" href="Receiver_Tab">
+      <caption translate="true">Вкладка «Приемник»</caption>
+    </topicref>
+    <topicref type="topic" id="432023451189803" build="ALL" modified="2018-07-03T15:42:32.719Z" icon="0" href="Transmitter_Tab">
+      <caption translate="true">Вкладка «Передатчик»</caption>
+    </topicref>
+    <topicref type="topic" id="432485873260368" build="ALL" modified="2018-06-15T13:37:03.775Z" icon="0" href="MPU_Tab">
+      <caption translate="true">Вкладка «МПУ»</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="432028173057112" build="31" modified="2018-04-16T13:05:04.998Z" icon="0" href="Program_Doing">
+    <caption translate="true">Выполнение программы</caption>
+    <topicref type="topic" id="432027929522085" build="ALL" modified="2018-04-16T19:27:47.363Z" icon="0" href="Program_Run">
+      <caption translate="true">Запуск программы</caption>
+    </topicref>
+    <topicref type="topic" id="432066449837858" build="ALL" modified="2018-04-16T19:28:05.865Z" icon="0" href="Program_Exit">
+      <caption translate="true">Завершение программы</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="432154748602206" build="31" modified="2018-04-25T13:06:08.500Z" icon="0" href="Input_Output_Data">
+    <caption translate="true">Входные и выходные данные программы</caption>
+    <topicref type="topic" id="432157450769975" build="ALL" modified="2018-04-25T13:03:46.286Z" icon="0" href="Input_Data_Info">
+      <caption translate="true">Сведения о входных данных</caption>
+    </topicref>
+    <topicref type="topic" id="432156910063146" build="ALL" modified="2018-04-25T13:05:00.483Z" icon="0" href="Output_Data_Info">
+      <caption translate="true">Сведения о выходных данных</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="432435710299900" modified="2018-05-25T12:41:54.462Z" icon="0" href="Terminal_PPI">
+    <caption translate="true">Выдержка из ПД на ПО Терминал МПСН, ПО Терминал станции и ПО Контрольный индикатор</caption>
+  </topicref>
+  <topicref type="topic" id="433216167078178" modified="2018-08-11T18:21:56.650Z" icon="0" href="System_Description">
+    <caption translate="true">Описание системы</caption>
+    <topicref type="topic" id="433208180449877" build="OMEGA" modified="2018-08-09T13:13:16.964Z" icon="0" href="Business_Model">
+      <caption translate="true">Назначение системы</caption>
+    </topicref>
+    <topicref type="topic" id="433209948515369" build="OMEGA" modified="2018-08-09T13:13:04.042Z" icon="0" href="Analysis">
+      <caption translate="true">Назначение подсистем</caption>
+    </topicref>
+    <topicref type="topic" id="433213763469767" build="ALL" modified="2018-08-09T13:12:50.391Z" icon="0" href="Design">
+      <caption translate="true">Модель проектирования системы</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="433221072393971" build="OMEGA" modified="2018-08-10T00:23:49.593Z" icon="0" href="Business_Model_1">
+    <caption translate="true">Бизнес-моделирование</caption>
+    <topicref type="topic" id="433243180901018" build="ALL" modified="2018-08-12T12:13:46.158Z" icon="0" href="System_Functions">
+      <caption translate="true">Назначение системы</caption>
+    </topicref>
+    <topicref type="topic" id="433244694620655" build="ALL" modified="2018-08-12T12:19:22.617Z" icon="0" href="Company_Managment">
+      <caption translate="true">Организационная структура компании</caption>
+    </topicref>
+    <topicref type="topic" id="433243829068835" build="ALL" modified="2018-08-12T13:20:11.588Z" icon="0" href="Business_Activity">
+      <caption translate="true">Бизнес-процессы</caption>
+    </topicref>
+    <topicref type="topic" id="433244536462657" build="ALL" modified="2018-08-12T15:05:15.847Z" icon="0" href="Business_Functions">
+      <caption translate="true">Бизнес-функции</caption>
+    </topicref>
+    <topicref type="topic" id="433213351975721" build="ALL" modified="2018-08-10T00:24:20.133Z" icon="0" href="Document_Busines_Usecase">
+      <caption translate="true">Бизнес-сущности документов</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="433218072394446" build="OMEGA" modified="2018-08-10T00:26:33.523Z" icon="0" href="Analysis_1">
+    <caption translate="true">Анализ</caption>
+    <topicref type="topic" id="433211987289307" build="ALL" modified="2018-08-10T00:26:13.436Z" icon="0" href="Subsystems">
+      <caption translate="true">Назначение подсистем</caption>
+    </topicref>
+    <topicref type="topic" id="433209154041133" build="ALL" modified="2018-08-10T00:26:18.271Z" icon="0" href="Analysis_Model">
+      <caption translate="true">Модель анализа</caption>
+    </topicref>
+    <topicref type="topic" id="433212128782709" build="ALL" modified="2018-08-10T00:26:23.038Z" icon="0" href="User_Interface_Model">
+      <caption translate="true">Модель пользовательского интерфейса</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="433219556269987" build="OMEGA" modified="2018-08-10T00:27:16.240Z" icon="0" href="Design_1">
+    <caption translate="true">Проектирование</caption>
+    <topicref type="topic" id="433211869096240" build="ALL" modified="2018-08-10T00:28:08.449Z" icon="0" href="Design_Main_Data">
+      <caption translate="true">Общие сведения</caption>
+    </topicref>
+    <topicref type="topic" id="432639998599" build="ALL" modified="2018-08-10T00:28:12.819Z" icon="0" href="Subsystem_Design_First_Manager">
+      <caption translate="true">Проектирование Подсистемы старшего менеджера</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="433237310604355" build="OMEGA" modified="2018-08-11T14:42:30.454Z" icon="0" href="Constructor">
+    <caption translate="true">Конструирование</caption>
+    <topicref type="topic" id="433237830429456" build="ALL" modified="2018-08-11T14:49:38.750Z" icon="0" href="Component_View">
+      <caption translate="true">Диаграммы компонентов</caption>
+    </topicref>
+    <topicref type="topic" id="433239366985414" build="ALL" modified="2018-08-11T18:19:16.634Z" icon="0" href="Deployment_View">
+      <caption translate="true">Диаграмма развертывания</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="433252529791991" build="INFOTECS" modified="2018-08-13T11:19:40.389Z" icon="0" href="Messages_Sequince_Description__For_FTP">
+    <caption translate="true">Описание последовательности сообщений согласно протоколу передачи файлов</caption>
+  </topicref>
+  <topicref type="topic" id="433255481676560" build="INFOTECS" modified="2018-08-13T13:04:23.950Z" icon="0" href="Topic">
+    <caption translate="true">Реализация трансляции адресов и фильтрации траффика при помощи ПО VipNet Coordinator</caption>
+  </topicref>
+</map>

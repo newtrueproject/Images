@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="КАТЮ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Диаграммы компонентов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Диаграммы компонентов</text></para>
+    </header>
+    <para styleclass="Image Caption"><image src="classes_first_manager_subsystem_0.png" scale="75.00%" width="351" height="134" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 4.1.1 – Классы Подсистемы старшего менеджера/Client</text></para>
+    <para styleclass="Image Caption"><image src="classes_first_manager_subsystem_server_0.png" scale="75.00%" width="388" height="152" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 4.1.2 – Классы Подсистемы старшего менеджера/Server</text></para>
+    <para styleclass="Image Caption"><image src="component_view_0.png" scale="75.00%" width="490" height="164" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 4.1.3 – Состав компонентов ИС</text></para>
+  </body>
+</topic>

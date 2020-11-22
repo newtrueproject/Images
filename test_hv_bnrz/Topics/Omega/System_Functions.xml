@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="КАТЮ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Назначение системы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Назначение системы</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Автоматизированная система учета медиа-покупок </text><var styleclass="Normal">&lt;%TITLE%&gt;</var><text styleclass="Normal" translate="true"> (далее - система) обеспечивает уровень онлайн-продаж с расширенным функционалом по сохранению сведений о зарегистрированных клиентах, а также менеджерах. Система осуществляет следующие функции:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#173;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">регистрация клиента;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">совершение покупок клиентов;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">доступ к информации о продажах;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">формирование журнала продаж за отчетный период.</text></li>
+    </list>
+  </body>
+</topic>

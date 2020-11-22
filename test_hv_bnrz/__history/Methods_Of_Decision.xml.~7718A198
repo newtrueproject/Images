@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Методы решения задачи</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Методы решения задачи</text></para>
+    </header>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Программа позволяет реализовать перечисленные выше задачи на вкладках пользовательского интерфейса программы (см. п. </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Program_User_Interface" styleclass="Normal" translate="true">Пользовательский интерфейс программы</link><text styleclass="Normal" translate="true">), а также с помощью отдельных окон, отображающих полученный результат. Программа использует следующие методы решения задач:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#45;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">запуск пользовательских тестовых сценариев;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">обработка данных, полученных от изделия;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">выдача пользователю информации о результатах тестирования в табличном и/или графическом виде (см. п. </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Receiver_Tab" styleclass="Normal" translate="true">Вкладка «Receiver»</link><text styleclass="Normal" translate="true">&#32;</text><text styleclass="Notes" translate="true">Рисунок В.1. График вероятности</text><text styleclass="Normal" translate="true">).</text></li>
+    </list>
+  </body>
+</topic>

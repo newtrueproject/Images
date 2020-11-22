@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Выдержка из ПД на ПО Терминал МПСН, ПО Терминал станции и ПО Контрольный индикатор</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Выдержка из ПД на ПО Терминал МПСН, ПО Терминал станции и ПО Контрольный индикатор</text></para>
+    </header>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="10" colcount="2">
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:10%;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">1</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">1. Краткое описание и технические характеристики оборудования</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Добавить схему Сервера, характеристики терминала станции и терминала общего (типа супертерминала)</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Добавить софт, который крутится на всех изделиях (firmware, software)</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Перечень ПО</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Из релиза МПСН Альманах 5.1:</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">ПО обработки и управления АТДС.00101-01 устанавливается на Станцию приёмную АТДС.464223.009, ПО контроля и управления запросчика АТДС.00018-01 – на Станцию передающую АТДС.464223.009, ПО Обработки и управления СК АТДС.00039-01 – на Сервер обработки и управления АТДС.468939.004; ПО Терминал МПСН АТДС.00008-02, ПО Терминал АТДС.00043-01 и ПО Контрольный индикатор АТДС.00044-01 – на Терминал местный АТДС.467849.005 и Терминал АТДС.467849.002.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:10%;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">2</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2. Взаимодействие между станцией и сервером</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Схема, с указанием потоков данных и протоколов</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Настройка подключения станции к серверу со скриншотами Терминала МПСН</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Настройка подключения станций к серверу МПСН из Терминала МПСН</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Контекстное меню приемной станции на мнемосхеме → Конфигурация</text></para>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Контекстное меню передающей станции на мнемосхеме → Конфигурация</text></para>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-20px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:20px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="station_peredach_1.png" scale="75.00%" width="472" height="368" styleclass="Image Caption"></image></para>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-20px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:20px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="station_peredach_1.png" scale="75.00%" width="472" height="368" styleclass="Image Caption"></image></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Включен – при установке флага осуществляется подключение к приемной/передающей станции. На мнемосхеме станция меняет цвет на зеленый (если оборудование станции корректно подключено к системе и к электропитанию).</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Название – имя, идентифицирующее приемную/передающую станцию в системе. Заданное имя используется только на мнемосхеме. Использовать произвольную последовательность буквенно-цифровых символов.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Адрес IP – IP-адрес приемной станции (адрес передающей станции соответствует IP-адресу приемной станции, к которому он физически подключен).</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Дополнительные параметры – остановка флага открывает область дополнительных параметров приемной/передающей станции.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:10%;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">3</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">3. Взаимодействие между станцией и терминалом станции</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Схема, с указанием потоков данных и протоколов</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Настройка подключения терминала к станции со скриншотами Терминала и PPI</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Меню → Соединения → Сетевые параметры терминала</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Окно «Сетевые параметры терминала» предназначено для подключения текущего компьютера, выполняющего роль терминала, к станции.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Примечание: на компьютере, выполняющем роль терминала, необходимы предварительные настройки сетевого интерфейса операционной системы.</text></para>
+          <para><text styleclass="Image Caption" translate="true">&#32;</text><image src="terminal_connect_1.png" scale="75.00%" width="254" height="179" styleclass="Image Caption"></image></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Окно «Сетевые параметры терминала» предназначено для подключения текущего компьютера, выполняющего роль терминала, к станции.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Левая область окна Amber:</text></para>
+          <list id="4" type="ul" listtype="bullet" formatstring="&#45;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">верхнее неактивное поле – отображает ip-адрес станции, с которой было установлено соединение в предыдущем сеансе работы;</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">нижнее активное поле – предназначено для ручного ввода ip-адреса станции, к которой необходимо подключить Терминал.</text></li>
+          </list>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Правая область окна:</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">верхний неактивный список – отображает тип Терминала, подключенного к станции в предыдущем сеансе работы;</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">нижний активный список – предназначен для выбора типа текущего Терминала, подключаемого к станции. Разделение терминалов на Местный, Дистанционный и Удаленный – условное и имеет конкретное значение для станции НС-1А. За одним из терминалов станций СОТА-Х4 и НС-1.04, закреплено название Местный. Но следует помнить, что подключение к одной станции нескольких Терминалов с одинаковыми типами невозможно (мнемосхема станции для Терминала, подключившегося с типом уже подключенного Терминала, будет неактивной). От типа Терминала зависит приоритет конфигурирования станции при одновременном подключении нескольких терминалов к ней. Приоритеты являются заводской установкой, не редактируются, посмотреть их можно из Меню программы – Заводские установки – Конфигурация терминалов.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Применить – соединить текущий Терминал (текущий компьютер) указанного типа с указанной станцией. Признаком установления соединения является отображение указанного адреса в текстовой части закладки</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">главного окна: и анимированного индикатора соединения в графической части закладки, а также окрашивание элементов мнемосхемы станции в зеленый цвет, цвет нормального работоспособного состояния. При первичном подключении к станции и ее первичной настройке элементы последовательно отображаются другими цветами в связи с инициализацией элементов в системе. При следующем запуске программы с этого же компьютера соединение Терминала указанного типа устанавливается со станцией указанного ip-адреса.</text></para>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-13px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:13px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Меню (PPI-S) → Источники информации → Добавить источник информации</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Окно «Источники информации» (рисунок ниже) предназначено для формирования списка источников, от которых поступает информация для визуализации полетной информации в главном окне программы, а также для управления ими. Источником может быть как средство наблюдения (Концентратор МПСН; радиолокатор; станции АЗН-В), так и файл (*.stream) записи выходных данных радиолокационной позиции.</text></para>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Для работы с каждым источником информации необходима совокупность:</text></para>
+          <list id="5" type="ul" listtype="bullet" formatstring="&#45;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">канала, настроенного для получения информации воздушного наблюдения от данного источника;</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">протокола, в соответствии с которым производится приём и обработка информации.</text></li>
+          </list>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Обработанная информация от включенного источника визуализируется в главном окне программы. Одновременно может быть включено несколько источников, информация от которых одновременно выводится на экран. Информация о включённых источниках выводится на панель индикаторов источников главного окна (Меню → Настройки → Индикатор источников).</text></para>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-20px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:20px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="state_info_0.png" scale="75.00%" width="244" height="321" styleclass="Image Caption"></image></para>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-20px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:20px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="state_info_settings_0.png" scale="75.00%" width="392" height="363" styleclass="Image Caption"></image></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Одновременно можно включить несколько источников. Включенные источники отображаются на индикаторе источников главного окна программы.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Окно «Настройка источника данных» предназначено для настройки Канала и Протокола, по которым Контрольный индикатор принимает и декодирует данные от источника информации. При настройке источника информации необходимо задать его имя в поле «Название». Это имя отобразится в главном окне на индикаторе активных источников, по умолчанию расположенном в левом нижнем углу. Если поля окна настройки недоступны, значит в данный момент источник включен или по нему ведется запись в файл.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:10%;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">4</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">4. Взаимодействие между сервером и общим терминалом</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Схема, с указанием потоков данных и протоколов</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Настройка подключения терминала к Серверу со скриншотами Терминала МПСН и PPI</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Первый запуск ПО Терминал МПСН и установление соединения с рабочим (Master) сервером:</text></para>
+          <list id="6" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Перейти на вкладку-мнемосхему с неактивными (белого цвета) элементами мнемосхемы МПСН. При отсутствии вкладки следует создать ее, для этого нажать «Добавить вкладку» и затем в появившемся окне «Настройки соединения» нажать кнопку «ОК».</text></li>
+          </list>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-20px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:20px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="server_connect_0.png" scale="75.00%" width="222" height="138" styleclass="Image Caption"></image></para>
+          <list id="6" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#46;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="page-break-after:avoid; font-family:Arial; font-size:10pt; color:#000000;">
+            <li styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Установить соединение с ПО «Обработки и управления СК» рабочего сервера, нажав Меню → Вкладка → Настройки соединения:</text></li>
+          </list>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2.1 ввести IP-адрес и порт сервера. Например, IP – 10.10.4.1, порт – 5052;</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2.2 в поле Название вкладки ввести имя создаваемой вкладки, например, Сервер 1;</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2.3 в полях Имя пользователя и пароль ввести авторизационные данные суперпользователя root;</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2.4 применить введенные параметры – в этом же окне Настройки соединения нажать кнопку ОК;</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2.5 успешность соединения с сервером проверить на данной вкладке. При успешном соединении, Сервер 1 окрасится в зеленый цвет на мнемосхеме.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Окно «Настройки соединения» предназначено для установления соединения терминала с сервером, а также задания его параметров, отображаемых на мнемосхеме главного окна.</text></para>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-13px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:13px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Меню (PPI-S) → Источники информации → Добавить источник информации</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Окно «Источники информации» (рисунок ниже) предназначено для формирования списка источников, от которых поступает информация для визуализации полетной информации в главном окне программы, а также для управления ими. Источником может быть как средство наблюдения (Концентратор МПСН; радиолокатор; станции АЗН-В), так и файл (*.stream) записи выходных данных радиолокационной позиции.</text></para>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Для работы с каждым источником информации необходима совокупность:</text></para>
+          <list id="7" type="ul" listtype="bullet" formatstring="&#45;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">канала, настроенного для получения информации воздушного наблюдения от данного источника;</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">протокола, в соответствии с которым производится приём и обработка информации.</text></li>
+          </list>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Обработанная информация от включенного источника визуализируется в главном окне программы. Одновременно может быть включено несколько источников, информация от которых одновременно выводится на экран. Информация о включённых источниках выводится на панель индикаторов источников главного окна (Меню → Настройки → Индикатор источников).</text></para>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-20px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:20px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="state_info_0.png" scale="75.00%" width="244" height="321" styleclass="Image Caption"></image></para>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-20px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:20px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="state_info_settings_0.png" scale="75.00%" width="392" height="363" styleclass="Image Caption"></image></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Одновременно можно включить несколько источников. Включенные источники отображаются на индикаторе источников главного окна программы.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Окно «Настройка источника данных» предназначено для настройки Канала и Протокола, по которым Контрольный индикатор принимает и декодирует данные от источника информации. При настройке источника информации необходимо задать его имя в поле «Название». Это имя отобразится в главном окне на индикаторе активных источников, по умолчанию расположенном в левом нижнем углу. Если поля окна настройки недоступны, значит в данный момент источник включен или по нему ведется запись в файл.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle;">
+          <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">5</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">5. Взаимодействие между Сервером и потребителем информации</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Схема, с указанием потоков данных и протоколов</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Настройка подключения потребителя к Серверу со скриншотами Терминала МПСН</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Настройка НПД на Сервере МПСН через Терминал МПСН</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Контекстное меню НПД на мнемосхеме → Конфигурация</text></para>
+          <para styleclass="Normal" style="text-align:justify; text-indent:-20px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:20px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="npd_0.png" scale="75.00%" width="460" height="454" styleclass="Image Caption"></image></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Включено – установка флага программно вводит НПД в систему. На мнемосхеме элемент меняет цвет на зеленый (если оборудование элемента подключено физически к системе и на него подано электропитание).</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Название – имя потребителя, идентифицирующее его в системе. Заданное имя отображается на мнемосхеме. Можно использовать произвольную последовательность буквенно-цифровых символов.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">IP-Адрес, IP-Адрес 2 – IP-адрес устройства потребителя, получающего информацию от системы.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Порт, Порт 2 – номер порта устройства потребителя, получающего информацию от системы.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Примечание. Дополнительные поля IP-Адрес 2 и Порт 2 необходимы для передачи информации одновременно двум устройствам потребителя (при установленном флаге Дополнительные параметры).</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Вкладки Общие, MLAT, АЗН-В (отдельный канал) – параметры и настройки вывода на НПД идентичны настройкам вывода на контрольные индикаторы за исключением следующих:</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Вкладка Общие. Обрамление сообщений</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Использовать байт-стаффинг (1002 – 1003) – при установке флага к каждому байту сообщения с шестнадцатеричным значением 10 добавляется еще один байт с шестнадцатеричным значением 10, который при приеме должен удаляться.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Использовать обрамление (1002 – 1003) – при установке флага перед первым байтом сообщения вставляются байты с шестнадцатеричными кодами 10 и 02, а после сообщения добавляются байты с шестнадцатеричными кодами 10 и 03.</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Использовать счетчик в формате 32ВЕ – при установке флага используется циклический счетчик датаграмм в формате 32ВЕ.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

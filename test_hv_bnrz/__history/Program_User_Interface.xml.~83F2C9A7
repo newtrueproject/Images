@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Пользовательский интерфейс программы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ПОЛЬЗОВАТЕЛЬСКИЙ ИНТЕРФЕЙС ПРОГРАММЫ</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Connect/Connect – </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Connect/Generator – ввести ip-адрес генератора, формирующего тестовые сигналы.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Generator – </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Status/Progress – отображает текущее выполнение теста/тестов с указанием процентов.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">java.net.SocketTimeoutException: Receive timed out – предназначена для разработчика утилиты.</text></para>
+  </body>
+</topic>

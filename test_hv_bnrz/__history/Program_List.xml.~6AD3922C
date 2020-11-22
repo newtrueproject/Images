@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Минимальный состав программных средств</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Минимальный состав программных средств</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Программа работает под управлением операционных систем (далее – ОС) Windows версии 7 (и выше) и Debian GNU/Linux версии 7 (и выше). Для работы программы на ПК должна быть установлена платформа Java версии 8 (и выше).</text></para>
+  </body>
+</topic>

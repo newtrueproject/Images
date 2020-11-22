@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="КАТЮ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Модель пользовательского интерфейса</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Модель пользовательского интерфейса</text></para>
+    </header>
+    <para styleclass="Image Caption"><image src="classes_first_manager_0.png" scale="75.00%" width="759" height="386" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 2.3.1 - Структура пользовательского интерфейса Подсистемы старшего менеджера</text></para>
+    <para styleclass="Image Caption"><image src="statemachine_first_manager_0.png" scale="70.00%" width="798" height="307" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 2.3.2 - Навигация пользователя Подсистемы старшего менеджера</text></para>
+  </body>
+</topic>

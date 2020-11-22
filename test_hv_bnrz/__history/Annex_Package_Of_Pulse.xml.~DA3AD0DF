@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Annex_Package_Of_Pulse</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Annex_Package_Of_Pulse</text></para>
+    </header>
+    <para styleclass="Image Caption" style="text-align:right; text-indent:0px; margin-top:8px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:avoid; tabstops:none;"><image src="package_of_pulse_tab_0.png" scale="60.00%" width="563" height="884" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

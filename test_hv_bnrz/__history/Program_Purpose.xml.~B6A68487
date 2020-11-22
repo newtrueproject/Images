@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Назначение программы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">НАЗНАЧЕНИЕ ПРОГРАММЫ</text></para>
+    </header>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">ПО </text><var styleclass="Normal">&lt;%TITLE%&gt;</var><text styleclass="Normal" translate="true">&#32;</text><var styleclass="Normal">&lt;%COPYRIGHT%&gt;</var><text styleclass="Normal" translate="true"> (далее – программа) предназначено для проверки изделия Блок НРЗ АТДС.464415.005 (далеее – изделия). Программа выполняет следующие функции:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#45;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">установка параметров приемного канала изделия;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">установка параметров передающего канала изделия;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">вывод контролируемых параметров изделия;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">проверка интерфейсов изделия: RS-485, LVDS, LA channel.</text></li>
+    </list>
+  </body>
+</topic>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="КАТЮ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Бизнес-процессы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Бизнес-процессы</text></para>
+    </header>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">В системе можно выделить следующие основные бизнес-процессы:</text></para>
+    <list id="109" type="ul" listtype="bullet" formatstring="&#173;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">выполнение медиа-покупки;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">расчеты старшего менеджера;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">поиск для старшего менеджера;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">расчеты главного офиса.</text></li>
+    </list>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Бизнес-процессы расчетов старшего менеджера и главного офиса, а также выполнения медиа-покупки представлены ниже.</text></para>
+    <para styleclass="Image Caption"><image src="activity_media_products_0.png" scale="75.00%" width="566" height="757" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 1.3.1 – Прием медиа-товаров</text></para>
+    <para styleclass="Image Caption"><image src="activity_forming_list_0.png" scale="75.00%" width="311" height="570" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 1.3.2 – Выполнение медиа-покупки</text></para>
+    <para styleclass="Image Caption"><image src="activity_input_media-products_from_list_0.png" scale="75.00%" width="290" height="410" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 1.3.3 Регистрация медиа-товаров из покупки</text></para>
+    <para styleclass="Image Caption"><image src="activity_for_first_manager_0.png" scale="75.00%" width="434" height="291" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 1.3.4 – Расчеты старшего менеджера</text></para>
+    <para styleclass="Image Caption"><image src="activity_for_main_office_0.png" scale="75.00%" width="154" height="155" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 1.3.5 – Расчеты главного офиса</text></para>
+  </body>
+</topic>

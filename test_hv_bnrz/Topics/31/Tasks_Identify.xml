@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Определение задачи</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Определение задачи</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В задачи программы входит вывод на экран значений контрольных параметров, отображающих текущее состояние изделия, запуск тестов интерфейса изделия, установка параметров приемного тракта изделия и установка параметров передающих каналов изделия.</text></para>
+  </body>
+</topic>

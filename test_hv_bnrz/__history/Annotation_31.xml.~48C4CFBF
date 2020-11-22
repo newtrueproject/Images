@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Аннотация</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Аннотация</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Документ содержит описание применения программного обеспечения (далее – ПО) </text><var styleclass="Normal">&lt;%TITLE%&gt;</var><text styleclass="Normal" translate="true">&#32;</text><var styleclass="Normal">&lt;%COPYRIGHT%&gt;</var><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В разделе </text><text styleclass="Notes" translate="true">Условия применения</text><text styleclass="Normal" translate="true"> указаны требования к техническим средствам, обеспечивающим работу ПО </text><var styleclass="Normal">&lt;%TITLE%&gt;</var><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Раздел </text><text styleclass="Notes" translate="true">Описание задачи</text><text styleclass="Normal" translate="true"> содержит постановку задачи и методы ее решения.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Раздел </text><text styleclass="Notes" translate="true">Описание главного окна</text><text styleclass="Normal" translate="true"> содержит описание пользовательского интерфейса ПО </text><var styleclass="Normal">&lt;%TITLE%&gt;</var><text styleclass="Normal" translate="true">, назначение его полей настроек и выводимой на экран информации.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В разделе </text><text styleclass="Notes" translate="true">Выполнение программы</text><text styleclass="Normal" translate="true"> описаны действия по запуску и закрытию ПО </text><var styleclass="Normal">&lt;%TITLE%&gt;</var><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В разделе </text><text styleclass="Notes" translate="true">Входные и выходные данные</text><text styleclass="Normal" translate="true"> перечислена входная и выходная информация.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Документ не содержит информации по настройке сети Ethernet и дополнительного оборудования, используемого при проведении тестов. Эта информация содержится в руководствах по данным устройствам.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Взаимосвязь настроек и их описаний снабжены в документе перекрестными ссылками. Для удобства пользователя бумажного экземпляра документа все ссылки имеют пиктограммы с номерами ссылочных страниц, </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Program_Purpose" styleclass="Normal" translate="true">например</link><text styleclass="Normal" translate="true">. При подготовке бумажного экземпляра документа использовать цветную печать.</text></para>
+  </body>
+</topic>

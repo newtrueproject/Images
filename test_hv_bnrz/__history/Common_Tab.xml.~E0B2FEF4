@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Вкладка «Common»</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Вкладка «Common»</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Вкладка </text><text styleclass="Notes" translate="true">Common</text><text styleclass="Normal" translate="true"> (см. </text><text styleclass="Notes" translate="true">Приложение А. Вид окна программы</text><text styleclass="Normal" translate="true">) предназначена для вывода значений контрольных параметров (см. табл. </text><var styleclass="Normal">&lt;%HMTABLECOUNTER=1%&gt;</var><text styleclass="Normal" translate="true">), отображающих текущее состояние изделия, и запуска тестов интерфейсов.</text></para>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" style="text-decoration:underline;" translate="true">Блок </text><text styleclass="Notes" style="text-decoration:underline;" translate="true">Показатели</text><text styleclass="Normal" translate="true"> содержит поля, которые отображают актуальные данные, характеризующие текущее состояние изделия:</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Дата создания прошивки FPGA</text><text styleclass="Normal" translate="true"> – отображает дату выпуска прошивки программируемой логической интегральной схемы изделия.</text></para>
+    <para styleclass="Normal" style="text-align:justify; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:avoid; tabstops:none;"><text styleclass="Normal" translate="true">Таблица </text><var styleclass="Normal">&lt;%HMTABLECOUNTER=1%&gt;</var><text styleclass="Normal" translate="true"> – Контрольные параметры изделия</text></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="8" colcount="3" style="width:100%;">
+      <thead style="vertical-align:top">
+        <td style="vertical-align:top; width:20%; height:28px;">
+          <para styleclass="Normal_Table" style="text-align:center;"><text styleclass="Normal_Table" translate="true">Блок</text></para>
+        </td>
+        <td style="vertical-align:top; width:20%; height:28px;">
+          <para styleclass="Normal_Table" style="text-align:center;"><text styleclass="Normal_Table" translate="true">Поле</text></para>
+        </td>
+        <td style="vertical-align:top; height:28px;">
+          <para styleclass="Normal_Table" style="text-align:center;"><text styleclass="Normal_Table" translate="true">Описание</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td rowspan="4" style="vertical-align:middle;">
+          <para styleclass="Normal_Table" style="text-align:left;"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Температуры</text></para>
+        </td>
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">ILIS</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Отображает температуру платы ILIS изделия.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">LIS</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Отображает температуру платы LIS изделия.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">FURY</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Отображает температуру платы FURY изделия.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">МПУ</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Отображает температуру платы MPU изделия.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:20%;">
+          <para styleclass="Normal_Table" style="text-align:left;"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Мощность TRF</text></para>
+        </td>
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">P1 Мощность, dBm</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Отображает мощность.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">P1&apos; Мощность, dBm</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Отображает мощность.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">P2,P5 Мощность, dBm</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Отображает мощность.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" style="text-decoration:underline;" translate="true">Блок </text><text styleclass="Notes" style="text-decoration:underline;" translate="true">Команды</text><text styleclass="Normal" translate="true"> предназначен для теста интерфейсов:</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Тест LVDS</text><text styleclass="Normal" translate="true"> – запустить/остановить выполнение теста интерфейса LVDS.</text></para>
+    <para styleclass="Normal"><text styleclass="Notes" translate="true">Поле индикации процесса тестирования LVDS</text><text styleclass="Normal" translate="true"> – отображает прогресс выполнения теста LVDS.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Тест RS485</text><text styleclass="Normal" translate="true"> – запустить/остановить выполнение теста интерфейса RS-485.</text></para>
+    <para styleclass="Normal"><text styleclass="Notes" translate="true">Поле индикации процесса тестирования RS485</text><text styleclass="Normal" translate="true"> – отображает прогресс выполнения теста RS-485.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Выбрать канал ЛА</text><text styleclass="Normal" translate="true"> – открыть поле номера канала изделия.</text></para>
+    <para styleclass="Normal"><text styleclass="Notes" translate="true">Поле номера канала изделия</text><text styleclass="Normal" translate="true"> – ввести номер канала изделия.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="text-decoration:underline;" translate="true">Блок </text><text styleclass="Notes" style="text-decoration:underline;" translate="true">Температуры</text><text styleclass="Normal" translate="true"> – после установки соединения с изделием выводит температуры плат ILIS, LIS и FURY в режиме реального времени в графическом виде (рис. </text><var styleclass="Normal">&lt;%HMFIGURECOUNTER+%&gt;</var><text styleclass="Normal" translate="true">).</text></para>
+    <para styleclass="Image Caption"><image src="common_tab_temperatures_0.png" scale="45.00%" width="643" height="110" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="page-break-after:avoid;"><table styleclass="Witnout borders" rowcount="3" colcount="2" style="width:100%; page-break-inside:avoid;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%;">
+          <para styleclass="Interface_Table"><image src="temperatures_info_1_0.png" scale="75.00%" width="80" height="20" styleclass="Interface_Table"></image></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Interface_Table_2"><text styleclass="Interface_Table_2" translate="true">– ILIS;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%;">
+          <para styleclass="Interface_Table"><image src="temperatures_info_0_0.png" scale="75.00%" width="80" height="20" styleclass="Interface_Table"></image></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Interface_Table_2"><text styleclass="Interface_Table_2" translate="true">– LIS;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:20%;">
+          <para styleclass="Interface_Table"><image src="temperatures_info_2_0.png" scale="75.00%" width="80" height="20" styleclass="Interface_Table"></image></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para styleclass="Interface_Table_2"><text styleclass="Interface_Table_2" translate="true">– FURY.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рисунок </text><var styleclass="Normal">&lt;%HMFIGURECOUNTER%&gt;</var><text styleclass="Normal" translate="true"> – Окно программы. Вкладка </text><text styleclass="Notes" translate="true">Common</text><text styleclass="Normal" translate="true">. Температуры в графическом виде</text></para>
+  </body>
+</topic>

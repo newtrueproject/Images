@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Завершение программы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Завершение программы</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Для завершения программы щелкнуть стандартной кнопкой закрытия окна в правом верхнем углу окна программы. Программа закрывается без запроса на подтверждение действия. При закрытии программы выполняется автоматическое сохранение настроек, выполненных в текущем сеансе ее работы.</text></para>
+  </body>
+</topic>

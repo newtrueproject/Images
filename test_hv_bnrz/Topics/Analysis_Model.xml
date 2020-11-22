@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="КАТЮ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Модель анализа</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Модель анализа</text></para>
+    </header>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">В модели анализа подсистемы старшего менеджера последовательно были созданы:</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#48;&#58;&#115;&#41;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">детализированная диаграмма прецедентов (UseCaseDiagram) (Рис. 2.2.1.1);</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">диаграмм видов деятельности (ActivityDiagram) (Рис. 2.2.1.2 -2.2.1.4) для представления основных потоков событий для прецедентов.</text></li>
+    </list>
+    <para styleclass="Image Caption"><image src="usecases_first_manager_functions_0.png" scale="75.00%" width="512" height="344" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 2.2.1.1 - Детализированная диаграмма прецедентов Подсистемы старшего менеджера для работы с книгами сдачи</text></para>
+    <para styleclass="Image Caption"><image src="activity_changing_off_books_with_media-product_0.png" scale="75.00%" width="405" height="546" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рис. 2.2.1.2 - Основной поток событий поиска книг сдачи с конкретным медиа-товаром</text></para>
+  </body>
+</topic>

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<helpproject xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd" version="1.8" isskin="false" isrepository="false">
+  <config>
+    <namespaces/>
+    <export-task-groups>
+      <export-task-group name="Recent Publishes">
+        <export-tasks>
+          <export-task name="Publish as PDF" format="PDF">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">..\..\..\..\..\e.trofimova\Documents\My PDF\PDF ПО test_hv_bnrz АТДС.00132-01\АТДС.00132-01 31 (ПО test_hv_bnrz)\АТДС.00132-01 31 (ПО test_hv_bnrz)_tabs_in_annex\АТДС.00132-01 31 (ПО test_hv_bnrz)_23.pdf</task-config-value>
+              <task-config-value name="template">..\..\..\..\..\e.trofimova\Desktop\Template_31_Эл_Описание применения.mnl</task-config-value>
+              <task-config-value name="highlighthotspots">0</task-config-value>
+              <task-config-value name="exportcomments">0</task-config-value>
+              <task-config-value name="exportcommentsdate">36526</task-config-value>
+              <task-config-value name="make4include">PDF,31</task-config-value>
+              <task-config-value name="make4status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+        </export-tasks>
+      </export-task-group>
+    </export-task-groups>
+    <helpwindows>
+      <helpwindow name="Main" left="-1" top="-1" width="-1" height="-1">
+        <caption translate="true">&lt;%TITLE%&gt;</caption>
+        <window-options-chm navigation="true" navigationwidth="200" search="true" favorite="true" saveregistry="true" buttons="12366">
+          <user-button name="jump1">
+            <caption translate="true">jump1</caption>
+          </user-button>
+          <user-button name="jump2">
+            <caption translate="true">jump2</caption>
+          </user-button>
+        </window-options-chm>
+      </helpwindow>
+    </helpwindows>
+    <styleclasses>
+      <styleclass name="Actions" shortcut="0">
+        <style-set media="screen" type="para">margin-bottom:0px; </style-set>
+        <style-set media="screen" type="text">font-weight:bold; text-decoration:underline; </style-set>
+      </styleclass>
+      <styleclass name="Code Example" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">white-space:nowrap; page-break-inside:avoid; </style-set>
+        <style-set media="screen" type="text">font-family:'Courier New'; font-size:8pt; </style-set>
+      </styleclass>
+      <styleclass name="Normal" shortcut="0">
+        <style-set media="screen" type="para">text-align:justify; text-indent:37px; margin-bottom:8px; </style-set>
+        <style-set media="screen" type="text">font-family:Arial; font-size:10pt; font-style:normal; </style-set>
+      </styleclass>
+      <styleclass name="Change_List" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">text-align:center; text-indent:0px; margin-top:2px; margin-right:2px; margin-bottom:2px; margin-left:2px; </style-set>
+        <style-set media="screen" type="text">font-size:8pt; </style-set>
+      </styleclass>
+      <styleclass name="Comment" parentclass="Normal" nextclass="Normal" shortcut="0"/>
+      <styleclass name="Fields" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">text-indent:-13px; margin-left:13px; </style-set>
+        <style-set media="screen" type="text">font-weight:bold; </style-set>
+      </styleclass>
+      <styleclass name="Results" parentclass="Fields" shortcut="0">
+        <style-set media="screen" type="para">text-indent:0px; margin-left:18px; </style-set>
+      </styleclass>
+      <styleclass name="Heading" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-size:12pt; font-weight:bold; </style-set>
+      </styleclass>
+      <styleclass name="Heading1" parentclass="Normal" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-size:16pt; font-weight:bold; </style-set>
+      </styleclass>
+      <styleclass name="HowTo" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-bottom:9px; </style-set>
+      </styleclass>
+      <styleclass name="HowTo Heading" parentclass="HowTo" shortcut="0">
+        <style-set media="screen" type="para">text-indent:-21px; margin-top:9px; margin-bottom:18px; margin-left:82px; </style-set>
+      </styleclass>
+      <styleclass name="HowTo Numbered" parentclass="HowTo" shortcut="0">
+        <style-set media="screen" type="para">text-indent:-29px; margin-left:111px; </style-set>
+      </styleclass>
+      <styleclass name="HowTo NumberedSecond" parentclass="HowTo Numbered" shortcut="0">
+        <style-set media="screen" type="para">text-indent:-31px; margin-left:31px; </style-set>
+      </styleclass>
+      <styleclass name="Image Caption" parentclass="Normal" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">text-align:center; text-indent:0px; margin-top:18px; page-break-after:avoid; </style-set>
+        <style-set media="screen" type="text">font-size:8pt; font-weight:bold; </style-set>
+      </styleclass>
+      <styleclass name="Interface" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">text-align:left; text-indent:-21px; margin-left:61px; page-break-after:avoid; </style-set>
+        <style-set media="screen" type="text">font-size:9pt; </style-set>
+      </styleclass>
+      <styleclass name="Interface_Table" parentclass="Interface" shortcut="0">
+        <style-set media="screen" type="para">text-indent:0px; margin-top:2px; margin-right:2px; margin-bottom:2px; margin-left:38px; </style-set>
+      </styleclass>
+      <styleclass name="Interface_Table_2" parentclass="Interface" shortcut="0">
+        <style-set media="screen" type="para">text-indent:0px; margin-top:2px; margin-right:2px; margin-bottom:2px; margin-left:2px; </style-set>
+      </styleclass>
+      <styleclass name="Normal_Table" parentclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">text-indent:0px; margin-top:2px; margin-right:2px; margin-bottom:2px; margin-left:2px; </style-set>
+        <style-set media="screen" type="text">font-size:8pt; </style-set>
+      </styleclass>
+      <styleclass name="Normal_Table_Specific" parentclass="Normal_Table" shortcut="0">
+        <style-set media="screen" type="para">margin-top:4px; margin-right:4px; margin-bottom:4px; margin-left:4px; </style-set>
+        <style-set media="screen" type="text">font-size:10pt; </style-set>
+      </styleclass>
+      <styleclass name="Notes" parentclass="Normal" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="text">font-style:italic; </style-set>
+      </styleclass>
+      <styleclass name="Console" parentclass="Notes" nextclass="Normal" shortcut="0">
+        <style-set media="screen" type="para">margin-left:58px; </style-set>
+        <style-set media="screen" type="text">font-family:'Lucida Console'; font-size:8pt; font-style:normal; </style-set>
+      </styleclass>
+      <tablestyleclass name="Default">
+        <style-set media="screen">width:auto; cell-padding:3px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none; </style-set>
+      </tablestyleclass>
+      <tablestyleclass name="Witnout borders" parentclass="Default">
+        <style-set media="screen">width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none; </style-set>
+      </tablestyleclass>
+      <tablestyleclass name="Specific">
+        <style-set media="screen">width:100%; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none; </style-set>
+      </tablestyleclass>
+      <tablestyleclass name="Change_List" parentclass="Specific">
+        <style-set media="screen">width:100%; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none; </style-set>
+      </tablestyleclass>
+    </styleclasses>
+    <config-group name="project">
+      <config-value name="title" translate="true">«test_hv_bnrz»</config-value>
+      <config-value name="author" translate="true">Трофимова</config-value>
+      <config-value name="copyright" translate="true">АТДС.00132-01</config-value>
+      <config-value name="versionmajor">АТДС.464949.011</config-value>
+      <config-value name="versionminor">0</config-value>
+      <config-value name="versionbuild">0</config-value>
+      <config-value name="lcid" translate="true">ru</config-value>
+      <config-value name="charset" translate="true">ANSI_CHARSET</config-value>
+      <config-value name="deffont">font-family:Tahoma; font-size:10pt; color:#000000; </config-value>
+      <config-value name="autohelpstart">0</config-value>
+      <config-value name="autohelpincrement">1</config-value>
+      <config-value name="autohelpanchor">0</config-value>
+      <config-value name="searchpath">.\;.\Images\;.\Images\terminal_ppi\</config-value>
+      <config-value name="imageshortcuts_includebaggage">1</config-value>
+      <config-group name="CUSTOMBUILDS">
+        <config-value name="1">1</config-value>
+        <config-value name="31">31</config-value>
+        <config-value name="SPEC">SPEC</config-value>
+      </config-group>
+      <config-value name="make4include">PDF,31</config-value>
+      <config-value name="make4status">*</config-value>
+      <config-value name="bidimode">0</config-value>
+    </config-group>
+    <config-group name="pdf">
+      <config-value name="style">0</config-value>
+      <config-value name="createoutline">1</config-value>
+      <config-value name="outlinesnumbered">0</config-value>
+      <config-value name="createhotspots">1</config-value>
+      <config-value name="insertseealso">1</config-value>
+      <config-value name="insertseealsostyle">0</config-value>
+      <config-value name="linkcolor">16711680</config-value>
+      <config-value name="ignoreblank">0</config-value>
+      <config-value name="outputfile">..\..\..\..\..\e.trofimova\Documents\My PDF\PDF ПО test_hv_bnrz АТДС.00132-01\АТДС.00132-01 31 (ПО test_hv_bnrz)\АТДС.00132-01 31 (ПО test_hv_bnrz)_tabs_in_annex\АТДС.00132-01 31 (ПО test_hv_bnrz)_23.pdf</config-value>
+      <config-value name="template">..\..\..\..\..\e.trofimova\Desktop\Template_31_Эл_Описание применения.mnl</config-value>
+      <config-value name="highlighthotspots">0</config-value>
+      <config-value name="exportcomments">0</config-value>
+      <config-value name="exportcommentsdate">36526</config-value>
+      <config-value name="embedfonts">7</config-value>
+      <config-value name="newfontsubsetting">1</config-value>
+      <config-value name="textasglyphs">0</config-value>
+      <config-value name="pdfa">0</config-value>
+      <config-value name="compression">1</config-value>
+      <config-value name="jpegquality">0</config-value>
+      <config-value name="openmode">1</config-value>
+      <config-value name="zoommode">0</config-value>
+      <config-value name="pagelayout">0</config-value>
+      <config-value name="userprint">1</config-value>
+      <config-value name="usercopy">1</config-value>
+      <config-value name="userchange">1</config-value>
+      <config-value name="encrypt128bit">0</config-value>
+      <config-value name="title" translate="true">&lt;%COPYRIGHT%&gt;</config-value>
+      <config-value name="copyright" translate="true">&lt;%COPYRIGHT%&gt;</config-value>
+      <config-value name="copyrightpublicdomain">0</config-value>
+    </config-group>
+    <config-group name="html">
+      <config-value name="defaultext">.html</config-value>
+      <config-value name="cssfile">default.css</config-value>
+      <config-value name="fontsizeencoding">1</config-value>
+      <config-value name="fontsizebase">100</config-value>
+      <config-value name="exportmarkersastext">1</config-value>
+      <config-value name="exportstylenames">1</config-value>
+      <config-value name="exportutf8bom">1</config-value>
+      <config-value name="replacecharhyphen">0</config-value>
+      <config-value name="animations">1</config-value>
+      <config-value name="imagelightbox">1</config-value>
+      <config-value name="synctimestamp">1</config-value>
+      <config-value name="syncarchivebit">0</config-value>
+      <config-value name="imagehint">1</config-value>
+      <config-value name="imageconversion">1</config-value>
+      <config-value name="jpgquality">90</config-value>
+      <config-value name="htmlpopup">3</config-value>
+    </config-group>
+    <config-group name="chm">
+      <config-value name="defaultext">.html</config-value>
+      <config-value name="cssfile">default.css</config-value>
+      <config-value name="fontsizeencoding">0</config-value>
+      <config-value name="fontsizebase">100</config-value>
+      <config-value name="exportmarkersastext">1</config-value>
+      <config-value name="exportstylenames">1</config-value>
+      <config-value name="pixelasem">1</config-value>
+      <config-value name="underscoreexcludesearch">0</config-value>
+      <config-value name="replacecharhyphen">0</config-value>
+      <config-value name="animations">1</config-value>
+      <config-value name="imagelightbox">1</config-value>
+      <config-value name="imagehint">1</config-value>
+      <config-value name="imageconversion">1</config-value>
+      <config-value name="jpgquality">90</config-value>
+      <config-value name="htmlpopup">3</config-value>
+    </config-group>
+    <config-group name="user">
+      <config-group name="e">
+        <config-group name="trofimova">
+          <config-group name="project">
+            <config-value name="lastexport">4</config-value>
+          </config-group>
+        </config-group>
+      </config-group>
+    </config-group>
+    <config-group name="liststyles">
+      <config-value name="bullet1">LEVELS=1;L0.ListType=0;L0.Font.Name=Arial;L0.Font.Charset=0;L0.FormatString=-;L0.MarkerAlignment=0;L0.StartFrom=1;</config-value>
+    </config-group>
+    <variables/>
+    <helpcontext-numbers/>
+  </config>
+  <xi:include parse="xml" href="Maps/table_of_contents.xml"/>
+  <project-files>
+    <file href="Topics/*.xml" build="ALL" filetype="topic">
+      <file-mod href="31.xml"/>
+      <file-mod href="Terminal_PPI.xml"/>
+      <file-mod href="Specific_Form.xml" build="SPEC"/>
+    </file>
+    <file href="Topics/31/*.xml" build="ALL" filetype="topic">
+      <file-mod href="Program_Doing.xml" build="31"/>
+      <file-mod href="Program_Purpose.xml" build="31"/>
+      <file-mod href="Task_Description.xml" build="31"/>
+      <file-mod href="Using_Conditions.xml" build="31"/>
+      <file-mod href="Input_Output_Data.xml" build="31"/>
+      <file-mod href="Main_Windows_Description.xml" build="31"/>
+      <file-mod href="Program_User_Interface.xml" build="31"/>
+      <file-mod href="Receiver_Tab.xml" build="31"/>
+      <file-mod href="Common_Tab.xml" build="31"/>
+    </file>
+    <file href="Baggage/*.*" build="ALL" filetype="baggage"/>
+  </project-files>
+</helpproject>

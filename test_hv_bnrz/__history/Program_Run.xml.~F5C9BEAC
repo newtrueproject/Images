@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Запуск программы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Запуск программы</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Для запуска программы запустить исполняемый файл </text><text styleclass="Notes" translate="true">test_hv_bnrz.exe</text><text styleclass="Normal" translate="true"> из директории программы, при этом открывается главное окно программы вкладка </text><text styleclass="Notes" translate="true">Common</text><text styleclass="Normal" translate="true">.</text></para>
+  </body>
+</topic>

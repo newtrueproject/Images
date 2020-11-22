@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="432024070563754" modified="2018-04-12T11:11:14.572Z" icon="0" href="31">
+    <caption translate="true">____31____</caption>
+  </topicref>
+  <topicref type="topic" id="432032797922954" build="31" modified="2018-04-16T13:05:10.780Z" icon="0" href="Program_Purpose">
+    <caption translate="true">Назначение программы</caption>
+  </topicref>
+  <topicref type="topic" id="432153920197515" build="31" modified="2018-04-25T13:01:34.031Z" icon="0" href="Using_Conditions">
+    <caption translate="true">Условия применения</caption>
+    <topicref type="topic" id="432155900184617" build="ALL" modified="2018-04-25T12:49:42.814Z" icon="0" href="Devices_List">
+      <caption translate="true">Минимальный состав аппаратно-технических средств</caption>
+    </topicref>
+    <topicref type="topic" id="43216692544134" build="ALL" modified="2018-04-25T12:51:43.657Z" icon="0" href="Program_List">
+      <caption translate="true">Минимальный состав программных средств</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="432157397098452" build="31" modified="2018-04-25T13:01:30.394Z" icon="0" href="Task_Description">
+    <caption translate="true">Описание задачи</caption>
+    <topicref type="topic" id="431893737229" build="ALL" modified="2018-04-25T12:54:27.000Z" icon="0" href="Tasks_Identify">
+      <caption translate="true">Определение задачи</caption>
+    </topicref>
+    <topicref type="topic" id="432153797645111" build="ALL" modified="2018-04-25T12:55:57.448Z" icon="0" href="Methods_Of_Decision">
+      <caption translate="true">Методы решения задачи</caption>
+    </topicref>
+    <topicref type="topic" id="432153386025123" build="ALL" modified="2018-04-25T13:02:42.284Z" icon="0" href="Value_Of_Results">
+      <caption translate="true">Оценка результатов тестирования</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="432023743621279" build="ALL" modified="2018-04-28T14:51:46.361Z" icon="0" href="Program_User_Interface">
+    <caption translate="true">Пользовательский интерфейс программы</caption>
+    <topicref type="topic" id="432156008049798" build="31" modified="2018-04-28T14:51:49.886Z" icon="0" href="Main_Windows_Description">
+      <caption translate="true">Описание главного окна программы</caption>
+    </topicref>
+    <topicref type="topic" id="432024257736670" build="31" modified="2018-04-28T14:51:53.197Z" icon="0" href="Common">
+      <caption translate="true">Вкладка «Common»</caption>
+    </topicref>
+    <topicref type="topic" id="43202825976109" build="ALL" modified="2018-05-14T15:28:27.689Z" icon="0" href="Receiver">
+      <caption translate="true">Вкладка «Receiver»</caption>
+    </topicref>
+    <topicref type="topic" id="432023451189803" build="31" modified="2018-04-28T14:52:03.884Z" icon="0" href="Transmitter">
+      <caption translate="true">Вкладка «Transmitter»</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="432028173057112" build="31" modified="2018-04-16T13:05:04.998Z" icon="0" href="Program_Doing">
+    <caption translate="true">Выполнение программы</caption>
+    <topicref type="topic" id="432027929522085" build="ALL" modified="2018-04-16T19:27:47.363Z" icon="0" href="Program_Run">
+      <caption translate="true">Запуск программы</caption>
+    </topicref>
+    <topicref type="topic" id="432066449837858" build="ALL" modified="2018-04-16T19:28:05.865Z" icon="0" href="Program_Exit">
+      <caption translate="true">Завершение программы</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="432154748602206" build="31" modified="2018-04-25T13:06:08.500Z" icon="0" href="Input_Output_Data">
+    <caption translate="true">Входные и выходные данные программы</caption>
+    <topicref type="topic" id="432157450769975" build="ALL" modified="2018-04-25T13:03:46.286Z" icon="0" href="Input_Data_Info">
+      <caption translate="true">Сведения о входных данных</caption>
+    </topicref>
+    <topicref type="topic" id="432156910063146" build="ALL" modified="2018-04-25T13:05:00.483Z" icon="0" href="Output_Data_Info">
+      <caption translate="true">Сведения о выходных данных</caption>
+    </topicref>
+  </topicref>
+</map>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Вкладка «MPU»</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Вкладка «MPU»</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Вкладка </text><text styleclass="Notes" translate="true">MPU</text><text styleclass="Normal" translate="true"> (см. рис. </text><var styleclass="Normal">&lt;%HMFIGURECOUNTER+%&gt;</var><text styleclass="Normal" translate="true">) предназначена для установки параметров составной части изделия – Пульта управления местного АТДС.468313.001. Поля на вкладке </text><text styleclass="Notes" translate="true">MPU</text><text styleclass="Normal" translate="true"> доступны для редактирования после установки соединения с изделием в </text><text styleclass="Notes" translate="true">области Connect</text><text styleclass="Normal" translate="true"> (см. </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Main_Windows_Description" styleclass="Normal" translate="true">Описание главного окна программы</link><text styleclass="Normal" translate="true">).</text></para>
+    <para styleclass="Image Caption"><image src="mpu_tab_0.png" scale="75.00%" width="389" height="555" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Normal" translate="true">Рисунок </text><var styleclass="Normal">&lt;%HMFIGURECOUNTER%&gt;</var><text styleclass="Normal" translate="true"> – Вид окна программы. Вкладка </text><text styleclass="Notes" translate="true">MPU</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Блок </text><text styleclass="Notes" translate="true">MPU controls</text><text styleclass="Normal" translate="true"> предназначен для управления изделием при помощи Пульта управления местного.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">MPU enabled</text><text styleclass="Normal" translate="true"> – установить/снять флаг для включения/выключения управления изделием при помощи Пульта управления местного.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">ЗПРД</text><text styleclass="Normal" translate="true"> – установить/снять флаг для включения/выключения запросного сигнала режима 4 (на ПРД).</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Инд. Мест</text><text styleclass="Normal" translate="true"> – установить/снять флаг для включения/выключения индикации включения местного управления.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Стробир</text><text styleclass="Normal" translate="true"> – установить/снять флаг для включения/выключения обработки ответного сигнала в пределах строба дальности; при отсутствии этого признака обработка ответного сигнала не ограничивается стробом дальности, а заканчивается по приходу импульса </text><text styleclass="Notes" translate="true">Конец дист.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Вкл. БР</text><text styleclass="Normal" translate="true"> – установить/снять флаг для включения/выключения </text><text styleclass="Notes" translate="true">боевого</text><text styleclass="Normal" translate="true"> режима работы изделия (разрешает запуск ПРД).</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">ППЕР</text><text styleclass="Normal" translate="true"> – ввести программу перемежения; если не используется, ввести &lt;</text><text styleclass="Notes" translate="true">0</text><text styleclass="Normal" translate="true">&gt;.</text></para>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Fields" translate="true">Режим работы</text><text styleclass="Normal" translate="true"> – в раскрывающемся списке выбрать режим работы изделия:</text></para>
+    <list id="245" type="ul" listtype="bullet" formatstring="&#45;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Р-1</text><text styleclass="Normal" translate="true">;</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Р-2</text><text styleclass="Normal" translate="true">;</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Р-3/А</text><text styleclass="Normal" translate="true">;</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Р-4</text><text styleclass="Normal" translate="true"> (режим, аналогичный режиму 4 системы опознавания в соответствии с документом STANAG 4193 (Часть 1) (Издание 2));</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Р-C</text><text styleclass="Normal" translate="true">;</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">ПЕРО</text><text styleclass="Normal" translate="true"> (перемежение);</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">РН</text><text styleclass="Normal" translate="true"> (наложенный режим).</text></li>
+    </list>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Fields" translate="true">Антенна</text><text styleclass="Normal" translate="true"> – выбрать пункт с использованием антенны:</text></para>
+    <list id="246" type="ul" listtype="bullet" formatstring="&#45;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Антенна</text><text styleclass="Normal" translate="true">;</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Эквивалент</text><text styleclass="Normal" translate="true">.</text></li>
+    </list>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Прочитать</text><text styleclass="Normal" translate="true"> – выполнить чтение значений параметров из памяти Пульта управления местного и их вывод в полях программы в блоке </text><text styleclass="Notes" translate="true">MPU controls</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Записать</text><text styleclass="Normal" translate="true"> – выполнить запись значений параметров, введенных в полях программы в блоке </text><text styleclass="Notes" translate="true">MPU controls</text><text styleclass="Normal" translate="true">, в память Пульта управления местного.</text></para>
+  </body>
+</topic>

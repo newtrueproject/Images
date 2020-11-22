@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Вкладка «Receiver»</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Вкладка «Receiver»</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Вкладка </text><text styleclass="Notes" translate="true">Reсeiver</text><text styleclass="Normal" translate="true"> (см. </text><text styleclass="Notes" translate="true">Приложение А. Вид окна программы. Вкладка «Receiver»</text><text styleclass="Normal" translate="true">) предназначена для установки параметров приемного тракта изделия.</text></para>
+    <para styleclass="Notes" style="text-align:justify; text-indent:37px; margin-top:15px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:avoid; tabstops:none;"><text styleclass="Notes" translate="true">Rx Channel</text></para>
+    <para styleclass="Normal" style="page-break-after:auto;"><text styleclass="Normal" translate="true">Блок </text><text styleclass="Notes" translate="true">Rx Channel</text><text styleclass="Normal" translate="true"> предназначен для калибровки приемных каналов изделия.</text></para>
+    <para styleclass="Normal" style="page-break-after:auto;"><text styleclass="Fields" translate="true">Rx Channel setup</text><text styleclass="Normal" translate="true"> – заполнить таблицу значениями для каждого канала изделия (см. табл. </text><var styleclass="Normal">&lt;%HMTABLECOUNTER+%&gt;</var><text styleclass="Normal" translate="true">).</text></para>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Таблица </text><var styleclass="Normal">&lt;%HMTABLECOUNTER%&gt;</var><text styleclass="Normal" translate="true"> – Параметры калибровки изделия</text></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="5" colcount="2" style="width:100%;">
+      <thead style="vertical-align:top">
+        <td style="vertical-align:top; width:20%; height:28px;">
+          <para styleclass="Normal_Table" style="text-align:center;"><text styleclass="Normal_Table" translate="true">Параметр</text></para>
+        </td>
+        <td style="vertical-align:top; height:28px;">
+          <para styleclass="Normal_Table" style="text-align:center;"><text styleclass="Normal_Table" translate="true">Описание</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Attenuator</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Ввести значение диапазона мощностей линейной зависимости изменения с помощью аттенюатора мощности входного сигнала и сигнала на выходе приемника для аттенюатора канала изделия</text><conditional-text type="IF" value="EBOOK"/><text styleclass="Normal_Table" translate="true">; выводит в дБ полученное значение</text><conditional-text type="END"/><text styleclass="Normal_Table" translate="true">.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Compression</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">–</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Power LNA</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Установить/снять флаг для записи/не записи значений.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Calib.offs</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Ввести идентификатор для конкретного канала изделия для сохранения данных калибровки в энергонезависимой памяти изделия.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Apply</text><text styleclass="Normal" translate="true"> – подтвердить введенные в полях </text><text styleclass="Notes" translate="true">Attenuator</text><text styleclass="Normal" translate="true"> и </text><text styleclass="Notes" translate="true">Compression</text><text styleclass="Normal" translate="true"> таблицы </text><text styleclass="Notes" translate="true">Rx Channel setup</text><text styleclass="Normal" translate="true"> значения для всех каналов.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Save</text><text styleclass="Normal" translate="true"> – записать в память изделия введенные в полях </text><text styleclass="Notes" translate="true">Attenuator</text><text styleclass="Normal" translate="true"> и </text><text styleclass="Notes" translate="true">Compression</text><text styleclass="Normal" translate="true"> таблицы </text><text styleclass="Notes" translate="true">Rx Channel setup</text><text styleclass="Normal" translate="true"> значения для всех каналов.</text></para>
+    <para styleclass="Notes" style="text-align:justify; text-indent:37px; margin-top:15px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:avoid; tabstops:none;"><text styleclass="Notes" translate="true">General RX setup/Amplitude</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Блок </text><text styleclass="Notes" translate="true">Amplitude</text><text styleclass="Normal" translate="true"> предназначен</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> для задания параметров теста, выполняемого по кнопке</text><text styleclass="Normal" translate="true">&#32;</text><text styleclass="Notes" translate="true">Amplitude</text><text styleclass="Normal" translate="true"> в блоке</text><text styleclass="Normal" style="font-weight:normal;" translate="true">&#32;</text><text styleclass="Notes" translate="true">Run Tests</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal" style="page-break-after:auto;"><text styleclass="Fields" translate="true">Curr Freq, dBm</text><text styleclass="Normal" translate="true"> – ввести значение потерь в соответствии с характеристиками МФУ, используемого для подключения генератора.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">From/To, dBm</text><text styleclass="Normal" translate="true"> – </text><text styleclass="Normal" style="font-weight:normal;" translate="true">ввести начальное и конечное значения диапазона мощности сигнала, формируемого генератором тестовых сигналов.</text></para>
+    <para styleclass="Normal" style="page-break-after:auto;"><text styleclass="Fields" translate="true">Step, x0,1 dBm</text><text styleclass="Normal" translate="true"> – </text><text styleclass="Normal" style="font-weight:normal;" translate="true">задать шаг изменения мощности сигнала. Рекомендуемое значение &lt;</text><text styleclass="Notes" translate="true">10</text><text styleclass="Normal" style="font-weight:normal;" translate="true">&gt;.</text></para>
+    <para styleclass="Notes" style="text-align:justify; text-indent:37px; margin-top:15px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:avoid; tabstops:none;"><text styleclass="Notes" translate="true">General RX setup/Frequency</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Блок </text><text styleclass="Notes" translate="true">Frequency</text><text styleclass="Normal" translate="true"> предназначен</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> для задания параметров теста, выполняемого по кнопке</text><text styleclass="Normal" translate="true">&#32;</text><text styleclass="Notes" translate="true">Frequency</text><text styleclass="Normal" translate="true"> в блоке</text><text styleclass="Normal" style="font-weight:normal;" translate="true">&#32;</text><text styleclass="Notes" translate="true">Run Tests</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal" style="page-break-after:auto;"><text styleclass="Fields" translate="true">Curr Freq, MHz</text><text styleclass="Normal" translate="true"> – </text></para>
+    <para styleclass="Normal" style="page-break-after:auto;"><text styleclass="Fields" translate="true">From/To, MHz</text><text styleclass="Normal" translate="true"> – ввести начальное и конечное значения частотного диапазона.</text></para>
+    <para styleclass="Normal" style="page-break-after:auto;"><text styleclass="Fields" translate="true">Step, x0,1 MHz</text><text styleclass="Normal" translate="true"> – </text></para>
+    <para styleclass="Notes" style="text-align:justify; text-indent:37px; margin-top:15px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:avoid; tabstops:none;"><text styleclass="Notes" translate="true">General RX setup/Channel</text></para>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Блок </text><text styleclass="Notes" translate="true">Channel</text><text styleclass="Normal" translate="true"> предназначен</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> для </text><text styleclass="Normal" translate="true">выбора тестируемого канала:</text></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#45;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Summa</text><text styleclass="Normal" translate="true"> – испытывать суммарный приемо-передающий канал изделия (далее – канал запроса);</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Delta</text><text styleclass="Normal" translate="true"> – испытывать разностный приемный канал изделия;</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Omega</text><text styleclass="Normal" translate="true"> – испытывать приемо-передающий канал подавления изделия (далее – канал подавления);</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Combi</text><text styleclass="Normal" translate="true"> – испытывать одновременно два канала изделия: приемо-передающий канал подавления и суммарный приемо-передающий канал.</text></li>
+    </list>
+    <para styleclass="Notes" style="text-align:justify; text-indent:37px; margin-top:15px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:avoid; tabstops:none;"><text styleclass="Notes" translate="true">General RX setup/Probability</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Блок </text><text styleclass="Notes" translate="true">Probability</text><text styleclass="Normal" translate="true"> предназначен</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> для задания параметров теста, выполняемого по кнопке</text><text styleclass="Normal" translate="true">&#32;</text><text styleclass="Notes" translate="true">Probability</text><text styleclass="Normal" translate="true"> в блоке</text><text styleclass="Normal" style="font-weight:normal;" translate="true">&#32;</text><text styleclass="Notes" translate="true">Run Tests</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Fields" translate="true">Method</text><text styleclass="Normal" translate="true"> – выбрать пункт с режимом, в котором должно работать изделие:</text></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#45;" format-charset="DEFAULT_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">Pulse</text><text styleclass="Normal" translate="true"> – излучать одиночный импульс;</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">RBS</text><text styleclass="Normal" translate="true"> – излучать в режиме RBS;</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">S</text><text styleclass="Normal" translate="true"> – излучать в режиме S;</text></li>
+      <li styleclass="Normal"><text styleclass="Notes" translate="true">M4</text><text styleclass="Normal" translate="true"> – излучать в режиме, аналогичном режиму 4 STANAG.</text></li>
+    </list>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Settings</text><text styleclass="Normal" translate="true"> – заполнить параметры теста изделия (см. табл. </text><var styleclass="Normal">&lt;%HMTABLECOUNTER+%&gt;</var><text styleclass="Normal" translate="true">).</text></para>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Таблица </text><var styleclass="Normal">&lt;%HMTABLECOUNTER%&gt;</var><text styleclass="Normal" translate="true"> – Параметры теста </text><text styleclass="Notes" translate="true">Probability</text></para>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="5" colcount="2" style="width:100%;">
+      <thead style="vertical-align:top">
+        <td style="vertical-align:top; width:20%; height:28px;">
+          <para styleclass="Normal_Table" style="text-align:center;"><text styleclass="Normal_Table" translate="true">Параметр</text></para>
+        </td>
+        <td style="vertical-align:top; height:28px;">
+          <para styleclass="Normal_Table" style="text-align:center;"><text styleclass="Normal_Table" translate="true">Описание</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Threshold, Num</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Ввести число ответов от генератора тестовых сигналов для каждого значения мощности в диапазоне [</text><text styleclass="Normal_Table" style="font-style:italic;" translate="true">General RX setup/Amplitude/From, dBm</text><text styleclass="Normal_Table" translate="true">; </text><text styleclass="Normal_Table" style="font-style:italic;" translate="true">General RX setup/Amplitude/To, dBm</text><text styleclass="Normal_Table" translate="true">] с шагом </text><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Step, x0,1 dBm</text><text styleclass="Normal_Table" translate="true">.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Single pulse, ns</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Ввести длительность импульса.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Interval, ns</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Ввести значение паузы между сквитерами для генератора тестовых сигналов.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:20%;">
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" style="font-style:italic;" translate="true">Repeat Number, Num</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal_Table"><text styleclass="Normal_Table" translate="true">Ввести число ожидаемых ответов.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Notes" style="text-align:justify; text-indent:37px; margin-top:15px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:avoid; tabstops:none;"><text styleclass="Notes" translate="true">Run Tests</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Блок </text><text styleclass="Notes" translate="true">Run Tests</text><text styleclass="Normal" translate="true"> предназначен для запуска/остановки тестов.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Probability</text><text styleclass="Normal" translate="true"> – вывести график зависимости вероятности от мощности в отдельном окне (см. </text><text styleclass="Notes" translate="true">Приложение В. График вероятности</text><text styleclass="Normal" translate="true">).</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Prob.cont</text><text styleclass="Normal" translate="true"> – </text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Calibrate ch.</text><text styleclass="Normal" translate="true"> – вывести измеренные значения кода аттенюации и кода потенциометра в блоке </text><text styleclass="Notes" translate="true">Test results</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Noise</text><text styleclass="Normal" translate="true"> – выполнить оценку шума на входе приемного канала, указанного в блоке </text><text styleclass="Notes" translate="true">Channel</text><text styleclass="Normal" translate="true">, и вывести результаты теста в отдельном окне в графическом виде.</text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Amplitude</text><text styleclass="Normal" translate="true"> – </text></para>
+    <para styleclass="Normal"><text styleclass="Fields" translate="true">Frequency</text><text styleclass="Normal" translate="true"> – </text></para>
+    <para styleclass="Notes" style="text-align:justify; text-indent:37px; margin-top:15px; margin-right:0px; margin-bottom:8px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:avoid; tabstops:none;"><text styleclass="Notes" translate="true">Tests results</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Блок </text><text styleclass="Notes" translate="true">Tests results</text><text styleclass="Normal" translate="true"> предназначен для вывода информации о выполненных тестах в данном сеансе работы программы.</text></para>
+    <para styleclass="Normal"><table styleclass="Witnout borders" rowcount="1" colcount="2" style="width:100%;">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Image Caption" style="text-align:center; text-indent:0px; margin-top:7px; margin-right:0px; margin-bottom:7px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="probabilities_tests_result_0.png" scale="50.00%" width="395" height="892" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="vertical-align:middle; width:10%;">
+          <para styleclass="Image Caption" style="text-align:center; text-indent:0px; margin-top:7px; margin-right:0px; margin-bottom:7px; margin-left:0px; line-height:1.00; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"><image src="probabilities_test_result_1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

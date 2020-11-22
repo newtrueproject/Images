@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Определение задачи</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Определение задачи</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Основная задача программы – запуск пользовательских тестовых сценариев, обработка данных, полученных от изделия, и выдача пользователю информации о результатах тестирования в табличном и/или графическом виде (см. </text><text styleclass="Notes" translate="true">Приложение А. График</text><text styleclass="Normal" translate="true">).</text></para>
+  </body>
+</topic>

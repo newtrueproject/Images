@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="e.trofimova" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Методы решения задачи</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Методы решения задачи</text></para>
+    </header>
+    <para styleclass="Normal" style="page-break-after:avoid;"><text styleclass="Normal" translate="true">Программа реализует следующие методы решения задачи:</text></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#45;" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">оценка уровня шума;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">определение динамического диапазона;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">определение коэффициента усиления.</text></li>
+    </list>
+  </body>
+</topic>
